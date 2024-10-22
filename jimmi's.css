@@ -1,0 +1,43 @@
+body{
+    background: grey;
+    min-height: 100vh;
+
+}
+.logo{
+    flex: 1;
+    position: absolute;
+}
+.logo-img{
+    height: 50px;
+
+}
+
+.Navigation{
+    display: flex;
+   list-style: none;
+   background-color: black;
+}
+.navi{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    justify-content: center;
+    
+}
+.navi a{
+    display: flex;
+    color: green;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    margin-left: 200px;
+   
+}
+.menu{
+    display: flex;
+    margin-left: 200px;
+    width: 80px;
+    height: 600px;
+    padding: 20px;
+
+}
